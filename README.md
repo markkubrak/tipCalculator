@@ -35,7 +35,7 @@ Describe the time you spent on the project.
 
 Markdown code to embed a GIF in your README file:
 ```
-![Walkthrough GIF](path/to/gif.gif)
+![Walkthrough GIF](tipCalculatorDemo.gif)
 ```
 
 GIF created with [LiceCap](https://www.cockos.com/licecap/).
