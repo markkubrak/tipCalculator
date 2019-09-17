@@ -2,7 +2,7 @@
 
 Author: Mark Kubrak
 
-A simple tipping calculator app where you enter your bill amount, select your tip percentage, the amount of people involved, and you receive the calculated owed amount per person.
+A simple tipping calculator app where you enter your bill amount, select your tip percentage, the amount of people involved, and you receive the calculated owed amount per person as well as the total with tip.
 
 ## Time spent
 Describe the time you spent on the project.
@@ -33,7 +33,6 @@ Describe the time you spent on the project.
 
 ## GIF Walkthrough
 
-Markdown code to embed a GIF in your README file:
 
 ![](tipCalculatorDemo.gif)
 
