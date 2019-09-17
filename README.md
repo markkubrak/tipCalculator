@@ -1,57 +1,45 @@
 # my-tip-calculator
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Author: Mark Kubrak
 
-## Prerequisites
+A simple tipping calculator app where you enter your bill amount, select your tip percentage, the amount of people involved, and you receive the calculated owed amount per person.
 
-You will need the following things properly installed on your computer.
+## Time spent
+Describe the time you spent on the project.
+ * Tutorials, research: 4 hours
+ * Coding required stories: 1 hour
+ * Optional and extras: 1 hours
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## User stories
 
-## Installation
+### Required
+ * [x] User can enter total bill amount
+ * [x] User can choose between at least three tip tiers (e.g. 15%, 18%, 20%) and see the total tip 
+ * [x] User can see the total with tip
 
-* `git clone <repository-url>` this repository
-* `cd my-tip-calculator`
-* `npm install`
+### Optional
 
-## Running / Development
+ * [ ] Add custom CSS to the calculator inputs
+ * [ ] Add a light/dark color theme toggle on the page
+ * [ ] User can enter tax amount
+ * [ ] Page is optimized for the viewport/browser size (i.e. scales to mobile & desktop sizes)
+ * [ ] Remember the previous bill amount when the user re-opens the browser
+ * [ ] Use [locale specific](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat) currency and currency separators.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+### Extra
 
-### Code Generators
+ User can enter the amount of people participating in tipping and it will give the amount owed for each person.
+ 
 
-Make use of the many generators for code, try `ember help generate` for more details
+## GIF Walkthrough
 
-### Running Tests
+Markdown code to embed a GIF in your README file:
+```
+![Walkthrough GIF](path/to/gif.gif)
+```
 
-* `ember test`
-* `ember test --server`
+GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
-### Linting
+## Notes & shoutouts
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+This first started with figuring out how to make handle bars work in Ember followed by actions. Then after getting the CSS the way I wanted, I ran into a long issue of figuring out why my total value would return in such a strange way until I realized that it wasn't adding values properly but instead it concatenate them. Overall, putting everything else together was fine.
